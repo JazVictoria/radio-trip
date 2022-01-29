@@ -1,0 +1,267 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fuentes/OpenSans-Regular.ttf);
+}
+
+.container {
+    width: 1366px;
+}
+
+.principal {
+    height: 768px;
+    width: 100%;
+    background-image: url(../imagenes/main-section.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.principal .info {
+    height: 35%;
+    display: flex;
+}
+
+.conocenos {
+    margin: 244px 61px 0 91px;
+}
+
+.principal .info .conocenos h1 {
+    margin: 37px 0 57px;
+    width: 533px;
+    height: 96px;
+    font-size: 48px;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.description {
+    width: 805px;
+    height: 53px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: "Open Sans";
+    font-weight: normal;
+}
+
+.form {
+    width: 324px;
+    padding-top: 18px;
+    padding-bottom: 28px;
+    background-color: rgba(133, 125, 140, 0.66);
+    margin-top: 180px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.form .registrate {
+    height: 30px;
+    font-size: 24px;
+    margin-bottom: 28px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.form .submit {
+    width: 140px;
+    height: 39px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.form .completar {
+    width: 252px;
+    height: 34px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.form .confirmation {
+    margin-bottom: 20px;
+}
+
+.form .confirmation .recordar {
+    padding-right: 71px;
+    font-size: 12px;
+}
+
+.form .confirmation .obligatorios {
+    font-size: 11px;
+}
+
+#captcha_container {
+    background-color: white;
+    padding: 10px 11px;
+    width: 185px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#captcha_container #captcha {
+    width: 23px;
+    height: 25px;
+}
+
+#shadow {
+    height: 65%;
+    background: linear-gradient(to top, rgba(149,135,232,1) 0%, rgba(249,246,252,0.6867121848739496) 48%, rgba(250,250,250,0) 100%);
+}
+
+.benefits {
+    height: 650px;
+    width: 100%;
+    margin-top: 140px;
+}
+
+.benefits h2 {
+    font-size: 36px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    text-align: center;
+}
+
+.benefits .actions {
+    display: flex;
+    width: 1187px;
+    margin: 112px auto 0 auto;
+}
+
+#video {
+    height: 363px;
+    width: 662px;
+    margin-right: 90px;
+}
+
+.benefits-list {
+    font-size: 24px;
+    width: 415px;
+    height: 318px;
+    list-style: none;
+}
+
+.benefits-list li{
+    display: flex;
+    font-family: "Open Sans";
+    font-weight: normal;
+}
+
+.benefits-list .icon {
+    margin-right: 36px;
+    margin-bottom: 41px;
+}
+
+.posts {
+   width: 100%;
+    height: 525px;
+}
+
+.posts h2 {
+    text-align: center;
+    margin-bottom: 93px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.carrousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+    background: linear-gradient(to bottom, rgba(139,135,232,1) 0%, rgba(170,200,219,1) 100%);
+}
+
+.facebook {
+    border: solid 1px black; 
+}
+
+.refuerzo {
+    width: 100%;
+    height: 584px;
+    padding-top: 172px;
+}
+
+.refuerzo h1{
+    text-align: center;
+    font-family: "Open sans";
+    font-weight: 600;
+    font-size: 48px;
+    width: 690px;
+    margin: 0 auto 75px;
+}
+
+.refuerzo .button {
+    width: 200px;
+    height: 58px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: rgba(149,135,232,1);
+    padding: 6px 0;
+}
+
+.refuerzo .button a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin-bottom: 60px;
+}
+
+.stores {
+    height: 110px;
+    width: 287px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.descarga {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.redes {
+    display: flex;
+    width: 186px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
